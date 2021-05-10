@@ -1,0 +1,15 @@
+{
+        "name": "cd",
+        "version": "1.0.0",
+        "main": "index.js",
+        "license": "MIT",
+        "scripts": {
+                "build": "NODE_ENV=production  npx tailwindcss build styles.css -o ./src/WebApplication2/web/asset/styles.css"
+        },
+        "dependencies": {
+                "tailwindcss": "^2.1.2"
+        },
+        "devDependencies": {},
+        "author": "",
+        "description": ""
+}
