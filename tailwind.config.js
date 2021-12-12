@@ -1,13 +1,11 @@
 const theme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-        purge: ["../**/*.jsp"],
-        darkMode: false, // or 'media' or 'class'
+        // mode: "jit",
+        content: ["./build/index.html"],
+
         theme: {
                 extend: {},
-                colors: {
-                        ...theme.colors,
-                },
         },
         variants: {
                 extend: {},
